@@ -1,0 +1,32 @@
+<h2 class="screen-align">Addticket</h2>
+<div id="template-i965" class="row">
+    <div id="template-igwr" class="cell">
+        <label id="template-iehp" class="label">name</label>
+        <input id="template-i0vyu" [(ngModel)]="tickets.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-ia9i" class="cell">
+        <label id="template-inra9" class="label">description</label>
+        <input id="template-iae27" [(ngModel)]="tickets.description"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+    <div id="template-ishj" class="cell">
+        <label id="template-it3rk" class="label">groups</label>
+        <input id="template-i2crl" [(ngModel)]="tickets.groups"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+    </div>
+</div>
+<div id="template-ivra" class="row">
+    <div id="template-ik9c" class="cell">
+        <label id="template-incoi" class="label">severity</label>
+        <input id="template-igtak" [(ngModel)]="tickets.severity"
+        [ngModelOptions]="{standalone: true}" class="input form-control" />
+        <button id="template-iyw97" (click)="GpCreate()" class="button btn btn-primary">create</button>
+    </div>
+    <div id="template-i7px" class="cell">
+        <label id="template-iodp4" class="label">types</label>
+        <input id="template-iq8oj" [(ngModel)]="tickets.types" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-igqd" class="cell"></div>
+</div>
